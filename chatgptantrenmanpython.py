@@ -38,9 +38,26 @@ for b in range(len(a)):
 
 print(s)
 """
-
+"""
 a = input("Please enter a number: ")
 s = 1 
 for t in a : 
     s *= int(t) 
 print("the product of numbers variebles: ",s )
+"""
+
+"""
+a = input("Please enter a number: ")
+print(len(a))
+"""
+"""
+a = "ali roket gibi kod yazıyor"
+
+b = list(a.split())
+longestwordinit = (b[0])
+for x in b : 
+    if len(x) > len(longestwordinit):
+        longestword = x 
+
+print(longestword)
+"""
