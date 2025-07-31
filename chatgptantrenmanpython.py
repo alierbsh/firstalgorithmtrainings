@@ -13,7 +13,7 @@ else:
     print("This is not a palindrome string.")
 """
 
-"""
+""""
 def fibonaccimotor(nnumb):
     a = 0
     b = 1 
@@ -29,7 +29,7 @@ def fibonaccimotor(nnumb):
 fibonaccimotor(1000)
        
 """
-
+""""
 a = input("Please enter a number: ")
 s = 0 
 for b in range(len(a)):
@@ -37,3 +37,10 @@ for b in range(len(a)):
     s = int(t) + s 
 
 print(s)
+"""
+
+a = input("Please enter a number: ")
+s = 1 
+for t in a : 
+    s *= int(t) 
+print("the product of numbers variebles: ",s )

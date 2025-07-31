@@ -1,3 +1,3 @@
 a = 1234
 myList = a
-print(myList)
+print(myList.sli)
