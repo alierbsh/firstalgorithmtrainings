@@ -61,3 +61,22 @@ for x in b :
 
 print(longestword)
 """
+"""
+from random import randint 
+
+a = randint(1,300)
+us = 300
+als = 0
+b= 0
+while a != b :
+    b = randint(als,us)
+    print(f"computer guess is : {b}")
+    if a == b :
+        print("true guess")
+    elif a > b :
+        als = b  
+        print(f"the number between: {als} < secretnum < {us} ")
+    else:
+        us = b
+        print(f"the number between:{als} < secretnum < {us} ")
+"""
