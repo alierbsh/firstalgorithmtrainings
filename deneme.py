@@ -1,9 +1,4 @@
-a = [1,2,3,4,5,6]
-b = a[0]
-for t in a :
-    if t > b:
-        bn = t 
-    else :
-        bn = b
-
-print(bn)  
+numbers = [2, 7, 11, 15]
+t = 2 
+t = numbers [x]
+print(x)

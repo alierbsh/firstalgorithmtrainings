@@ -1,4 +1,5 @@
 """
+problem 1 
 palindrome check fonk
 aciklama : bu motor ile girilen degerin tersten yaziminin duzden yazimina
 esit olup olmadigini kontrol eden bir fonksiyondur.
@@ -14,6 +15,7 @@ else:
 """
 
 """"
+problem 2 
 def fibonaccimotor(nnumb):
     a = 0
     b = 1 
@@ -30,6 +32,7 @@ fibonaccimotor(1000)
        
 """
 """"
+problem 3 
 a = input("Please enter a number: ")
 s = 0 
 for b in range(len(a)):
@@ -39,6 +42,7 @@ for b in range(len(a)):
 print(s)
 """
 """
+problem 4 
 a = input("Please enter a number: ")
 s = 1 
 for t in a : 
@@ -51,6 +55,7 @@ a = input("Please enter a number: ")
 print(len(a))
 """
 """
+problem 5 
 a = "ali roket gibi kod yazıyor"
 
 b = list(a.split())
@@ -62,6 +67,7 @@ for x in b :
 print(longestword)
 """
 """
+problem 6 
 from random import randint 
 
 a = randint(1,300)
@@ -80,3 +86,15 @@ while a != b :
         us = b
         print(f"the number between:{als} < secretnum < {us} ")
 """
+
+"""
+numbers = [2, 7, 11, 15]
+
+for t in numbers: 
+    for b in numbers:
+        if t + b == 9 and t != b :
+            a = int(numbers.index(t))
+            c = int(numbers.index(b))
+            print(f"{a}, {c}") 
+"""
+       
