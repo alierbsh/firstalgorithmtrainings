@@ -97,4 +97,11 @@ for t in numbers:
             c = int(numbers.index(b))
             print(f"{a}, {c}") 
 """
-       
+
+nums = [1,2,3,4,1]
+def element_iterative_counter(myList):
+    for i in myList:
+        if myList.count(i) > 1:
+            return True
+    return False  # hiç tekrar bulunmadıysa
+element_iterative_counter(nums)
