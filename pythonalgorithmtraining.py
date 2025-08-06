@@ -97,11 +97,46 @@ for t in numbers:
             c = int(numbers.index(b))
             print(f"{a}, {c}") 
 """
+"""
+myList = [1,2,3,4,5,6,1]
+myset = set()
+myset.update(myList)
 
-nums = [1,2,3,4,1]
-def element_iterative_counter(myList):
-    for i in myList:
-        if myList.count(i) > 1:
-            return True
-    return False  # hiç tekrar bulunmadıysa
-element_iterative_counter(nums)
+print(myset)
+if len(myset) == len(nums):
+    print(True)
+else :
+    print(False)
+"""
+"""
+def singleNumber(nums):
+    
+    :type nums: List[int]
+    :rtype: int"""
+"""
+    result = 0
+    for num in nums:
+        result ^= num
+    return result
+
+# Test
+nums = [2, 2, 1,5,5,3,3]
+print(singleNumber(nums))  # Çıktı: 1
+
+            
+"""
+class Solution(object):
+    def majorityElement(self, nums):
+        majority = nums[0]
+        max_count = nums.count(nums[0])
+        
+        for num in nums:
+            rep = nums.count(num)
+            if rep > max_count:
+                majority = num
+                max_count = rep
+        return majority
+
+# Test
+nums = [2,2,1,1,1,2,2]
+print(Solution().majorityElement(nums))  # Output: 2
