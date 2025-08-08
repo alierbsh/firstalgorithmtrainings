@@ -125,18 +125,5 @@ print(singleNumber(nums))  # Çıktı: 1
 
             
 """
-class Solution(object):
-    def majorityElement(self, nums):
-        majority = nums[0]
-        max_count = nums.count(nums[0])
-        
-        for num in nums:
-            rep = nums.count(num)
-            if rep > max_count:
-                majority = num
-                max_count = rep
-        return majority
 
-# Test
-nums = [2,2,1,1,1,2,2]
-print(Solution().majorityElement(nums))  # Output: 2
+
